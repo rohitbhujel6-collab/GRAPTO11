@@ -2,109 +2,264 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GRAPTO Admin</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="assets/css/admin.css">
+<title>GRAPTO Admin Dashboard</title>
+
+<link rel="stylesheet" href="assets/css/admin.css">
+
 </head>
 
 <body>
 
-<div class="container">
+<div class="dashboard">
+
+<aside class="sidebar">
+
+<h1>GRAPTO</h1>
+
+<ul>
+<li>Dashboard</li>
+<li>Branding</li>
+<li>Company Info</li>
+<li>Services</li>
+<li>Client Form</li>
+<li>Social Media</li>
+</ul>
+
+</aside>
+
+
+<main class="main">
+
 
 <h1>GRAPTO ADMIN PANEL</h1>
-<p>Manage your website without editing code.</p>
 
-<hr>
+<p>
+Manage website content from one place.
+</p>
+
+
+
+<div class="card">
 
 <h2>Company Logo</h2>
 
-<input type="file">
+<input type="file" accept="image/*">
 
-<button>Upload Logo</button>
+<br><br>
 
-<hr>
+<img 
+src=""
+id="logoPreview"
+width="150"
+alt="Logo Preview">
 
-<h2>Website Banner</h2>
+<br>
 
-<input type="file">
-
-<button>Upload Banner</button>
-
-<hr>
-
-<h2>Google Form Link</h2>
-
-<input
-type="text"
-placeholder="Paste your Google Form Link here">
-
-<button>Save Form Link</button>
-
-<hr>
-
-<h2>Company Information</h2>
-
-<input
-type="text"
-placeholder="Company Name">
-
-<input
-type="text"
-placeholder="Phone Number">
-
-<input
-type="email"
-placeholder="Company Email">
-
-<input
-type="text"
-placeholder="Office Address">
-
-<button>Save Company Details</button>
-
-<hr>
-
-<h2>Social Links</h2>
-
-<input
-type="text"
-placeholder="LinkedIn URL">
-
-<input
-type="text"
-placeholder="Instagram URL">
-
-<input
-type="text"
-placeholder="Facebook URL">
-
-<button>Save Social Links</button>
-
-<hr>
-
-<h2>Services</h2>
-
-<textarea
-rows="8"
-placeholder="One service per line"></textarea>
-
-<button>Save Services</button>
-
-<hr>
-
-<h2>Status</h2>
-
-<p>Website Version : 1.0</p>
-
-<p>Company : GRAPTO</p>
-
-<p>Location : Siliguri, West Bengal</p>
+<button>
+Save Logo
+</button>
 
 </div>
 
-<script src="assets/js/admin.js"></script>
+
+
+
+<div class="card">
+
+<h2>Website Cover Banner</h2>
+
+<input type="file" accept="image/*">
+
+<br><br>
+
+<img 
+src=""
+id="bannerPreview"
+width="300"
+alt="Banner Preview">
+
+<br>
+
+<button>
+Save Banner
+</button>
+
+</div>
+
+
+
+
+
+<div class="card">
+
+<h2>Client Interest Form</h2>
+
+<p>
+Paste your Google Form link here.
+All client enquiry buttons will use this link.
+</p>
+
+
+<input 
+type="url"
+placeholder="https://forms.google.com/your-form-link">
+
+
+<button>
+Save Google Form
+</button>
+
+</div>
+
+
+
+
+
+
+<div class="card">
+
+<h2>Company Information</h2>
+
+
+<input 
+type="text"
+placeholder="Company Name">
+
+
+<input 
+type="text"
+placeholder="Tagline">
+
+
+<input 
+type="email"
+placeholder="Business Email">
+
+
+<input 
+type="text"
+placeholder="Phone Number">
+
+
+<input 
+type="text"
+placeholder="Office Address">
+
+
+<textarea
+placeholder="About GRAPTO">
+</textarea>
+
+
+<button>
+Save Company Details
+</button>
+
+
+</div>
+
+
+
+
+
+
+<div class="card">
+
+<h2>Services</h2>
+
+
+<textarea
+rows="8"
+placeholder="
+Recruitment
+Staffing Solutions
+HR Support
+Business Operations
+Growth Partnerships
+">
+</textarea>
+
+
+<button>
+Save Services
+</button>
+
+
+</div>
+
+
+
+
+
+
+
+<div class="card">
+
+<h2>Social Media</h2>
+
+
+<input 
+type="url"
+placeholder="LinkedIn URL">
+
+
+<input 
+type="url"
+placeholder="Instagram URL">
+
+
+<input 
+type="url"
+placeholder="Facebook URL">
+
+
+<input 
+type="url"
+placeholder="WhatsApp Link">
+
+
+<button>
+Save Social Links
+</button>
+
+
+</div>
+
+
+
+
+
+
+
+<div class="card">
+
+<h2>Website Status</h2>
+
+<p>
+GRAPTO Website Version: 1.0
+</p>
+
+<p>
+Location: Siliguri, West Bengal, India
+</p>
+
+<p>
+People. Partnerships. Progress.
+</p>
+
+
+</div>
+
+
+
+</main>
+
+</div>
+
 
 </body>
+
 </html>
