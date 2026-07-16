@@ -1,0 +1,25 @@
+/* ===================================
+   GRAPTO WEBSITE STYLESHEET
+   =================================== */
+
+/* Reset default browser spacing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #222;
+    line-height: 1.6;
+}
+
+/* Main heading */
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    color: #0A5C4A;
+}
