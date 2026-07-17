@@ -1,65 +1,95 @@
-```css
-/* ==========================================
-   GRAPTO DESIGN SYSTEM v2.0
-   ========================================== */
-
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+/* =====================================================
+   GRAPTO DESIGN SYSTEM
+   Premium Corporate Theme
+===================================================== */
 
 :root{
 
-/* ========= COLORS ========= */
+/* Primary Colors */
 
 --primary:#123C69;
+--primary-dark:#0F172A;
 --secondary:#0B5D4A;
 --accent:#06B6D4;
 
---navy:#0F172A;
---white:#FFFFFF;
---background:#F5F7FB;
+/* Background */
 
---heading:#1E293B;
---text:#475569;
+--background:#F6F8FC;
+--surface:#FFFFFF;
+--surface-dark:#0F172A;
+
+/* Text */
+
+--text:#1E293B;
+--text-light:#64748B;
+--white:#FFFFFF;
+
+/* Border */
 
 --border:#E2E8F0;
 
---success:#22C55E;
---warning:#F59E0B;
---danger:#DC2626;
+/* Shadows */
 
-/* ========= GRADIENTS ========= */
+--shadow-sm:
+0 2px 10px rgba(15,23,42,.05);
 
---gradient-primary:linear-gradient(135deg,#123C69 0%,#0B5D4A 100%);
---gradient-dark:linear-gradient(135deg,#0F172A 0%,#123C69 100%);
---gradient-accent:linear-gradient(135deg,#06B6D4 0%,#123C69 100%);
+--shadow:
+0 10px 30px rgba(15,23,42,.08);
 
-/* ========= SHADOWS ========= */
+--shadow-lg:
+0 25px 60px rgba(15,23,42,.15);
 
---shadow-sm:0 6px 20px rgba(15,23,42,.06);
+/* Radius */
 
---shadow-md:0 12px 30px rgba(15,23,42,.08);
-
---shadow-lg:0 20px 50px rgba(15,23,42,.12);
-
-/* ========= BORDER RADIUS ========= */
-
+--radius-xs:6px;
 --radius-sm:10px;
---radius-md:18px;
---radius-lg:28px;
---radius-xl:40px;
+--radius:16px;
+--radius-lg:22px;
+--radius-xl:32px;
 
-/* ========= SPACING ========= */
+/* Spacing */
 
---container:1280px;
+--space-xs:8px;
+--space-sm:16px;
+--space:24px;
+--space-lg:40px;
+--space-xl:70px;
 
---section-padding:100px;
-
-/* ========= TRANSITION ========= */
+/* Animation */
 
 --transition:.35s ease;
 
-/* ========= FONT ========= */
+/* Gradients */
 
---font:'Inter',sans-serif;
+--gradient-primary:
+linear-gradient(
+135deg,
+#123C69 0%,
+#0B5D4A 100%
+);
+
+--gradient-dark:
+linear-gradient(
+135deg,
+#0F172A,
+#123C69
+);
+
+--gradient-light:
+linear-gradient(
+180deg,
+#FFFFFF,
+#F6F8FC
+);
+
+/* Buttons */
+
+--button-padding:
+14px 28px;
+
+/* Max Width */
+
+--container:
+1280px;
 
 }
-```
