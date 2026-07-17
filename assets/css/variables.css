@@ -1,0 +1,58 @@
+```css
+/* ================================
+   GRAPTO DESIGN SYSTEM
+================================ */
+
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+:root{
+
+/* Brand Colors */
+
+--primary:#0F172A;
+--secondary:#134E4A;
+--accent:#06B6D4;
+
+--white:#FFFFFF;
+--background:#F8FAFC;
+
+--text:#111827;
+--paragraph:#6B7280;
+
+--success:#16A34A;
+--warning:#F59E0B;
+--danger:#DC2626;
+
+/* Gradients */
+
+--gradient-primary:linear-gradient(135deg,#0F172A,#134E4A);
+
+--gradient-accent:linear-gradient(135deg,#06B6D4,#134E4A);
+
+/* Shadows */
+
+--shadow-sm:0 5px 15px rgba(15,23,42,.08);
+
+--shadow-md:0 12px 35px rgba(15,23,42,.12);
+
+--shadow-lg:0 25px 60px rgba(15,23,42,.18);
+
+/* Radius */
+
+--radius-sm:12px;
+
+--radius-md:18px;
+
+--radius-lg:28px;
+
+/* Transition */
+
+--transition:.35s ease;
+
+/* Max Width */
+
+--container:1280px;
+
+}
+```
